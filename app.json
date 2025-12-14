@@ -8,8 +8,13 @@
     "scheme": "todoapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "expo-env": ".env",
     "ios": {
-      "supportsTablet": true
+       "supportsTablet": true,
+      "infoPlist": {
+    "NSMicrophoneUsageDescription": "This app requires microphone access to add tasks using voice input."
+      }
+
     },
     "android": {
       "adaptiveIcon": {
