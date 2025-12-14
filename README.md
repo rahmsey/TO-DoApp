@@ -29,13 +29,12 @@ Both modes are fully styled with consistent spacing, shadows, and typography.
 ##  **Screenshots**
 
 ###  **Light Mode**
-![Light Mode](PUT_LINK_TO_LIGHT_MODE_IMAGE_HERE)
+![Light Mode](https://github.com/rahmsey/TO-DoApp/blob/main/white.jpg)
 
 ###  **Dark Mode**
-![Dark Mode](PUT_LINK_TO_DARK_MODE_IMAGE_HERE)
+![Dark Mode](https://github.com/rahmsey/TO-DoApp/blob/main/black.jpg)
 
-> To add your images:  
-> Upload the screenshots to GitHub → Right-click → **Copy image address** → Replace the URLs above.
+
 
 ---
 
