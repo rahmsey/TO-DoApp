@@ -111,14 +111,20 @@ todo-app/
 
 ---
 
-##  Running the Project
+## 🚀 Running the Project
 
-### 1️ Install Dependencies
+### 1️⃣ Install Dependencies
+```bash
 npm install
 npx expo start
 
-##2 Run on Device
-Scan QR with Expo Go (Android/iOS)
-Or press i / a in terminal for simulator
+# Scan QR code using Expo Go (Android/iOS)
+
+# OR launch simulators:
+i   # Run on iOS simulator
+a   # Run on Android emulator
+
+
+
 
 
