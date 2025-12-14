@@ -1,50 +1,124 @@
-# Welcome to your Expo app 👋
+#  React Native To-Do App  
+A clean, responsive, and fully functional task manager built with **React Native**, **Expo Router**, and **TypeScript**.  
+The application includes task creation, editing states, sorting, dark/light theme support, and a demo implementation of voice-powered task input.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+---
 
-## Get started
+##  **Features**
 
-1. Install dependencies
+###  Task Management  
+- Add new tasks with optional due dates  
+- Mark tasks as **complete / incomplete**  
+- Delete tasks  
+- Tasks automatically grouped into **Pending** and **Completed** sections  
+- Smooth animated transitions using `LayoutAnimation`  
 
-   ```bash
-   npm install
-   ```
+###  Sorting & Search  
+- Sort tasks by:
+  - **Due date**
+  - **Title**
+  - **Completion status**
+- Real-time search bar filters tasks as you type  
 
-2. Start the app
+###  Light & Dark Mode Support  
+The UI automatically adapts based on device settings.  
+Both modes are fully styled with consistent spacing, shadows, and typography.
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+##  **Screenshots**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+###  **Light Mode**
+![Light Mode](PUT_LINK_TO_LIGHT_MODE_IMAGE_HERE)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+###  **Dark Mode**
+![Dark Mode](PUT_LINK_TO_DARK_MODE_IMAGE_HERE)
 
-## Get a fresh project
+> To add your images:  
+> Upload the screenshots to GitHub → Right-click → **Copy image address** → Replace the URLs above.
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## 🎤 Voice Input (Demo Mode)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+The app includes a **Voice Input feature** accessible on the Add Task page.
 
-## Learn more
+### 🔎 Why is it in demo mode?
+OpenAI Whisper requires **paid billing**, and the quota was exceeded during development.
 
-To learn more about developing your project with Expo, look at the following resources:
+So in the submitted version:
+- The UI and animation are fully implemented  
+- A clean popup explains the feature  
+- No recording or API call is executed  
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 🧠 Intended Functionality (If Enabled)
+Once billing is active, the button would:
+- Record audio through `expo-av`
+- Send audio to OpenAI Whisper
+- Convert speech → text  
+- Automatically split multiple tasks (example:  
+  > “Pick up groceries and call mum”  
+  becomes two tasks)
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## 🧭 Navigation  
+The project uses **React Navigation via Expo Router**, with only two core screens:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. **Task List Screen** (Home)
+2. **Add Task Screen**
+
+The (+) button on the bottom-right of the Task List redirects directly to the Add Task form.
+
+---
+
+## 📂 **Project Structure**
+todo-app/
+│── app/
+│   ├── tasks/
+│   │   ├── index.tsx
+│   │   ├── add.tsx
+│   │   ├── _layout.tsx
+│   ├── index.tsx
+│
+├── src/
+│   ├── storage/
+│   │   ├── taskStorage.ts
+│   ├── constants/
+│   │   ├── colors.ts
+│   ├── types/
+│       ├── Task.ts
+│
+├── assets/
+│   └── images/
+│
+├── .env   (ignored in repo)
+├── package.json
+├── README.md
+
+
+---
+
+##  **Tech Stack**
+
+- **React Native**
+- **Expo Router**
+- **TypeScript**
+- **AsyncStorage (data persistence)**
+- **expo-av** (voice input)
+- **expo-community-datetimepicker**
+- **LayoutAnimation** (smooth transitions)
+
+---
+
+##  Running the Project
+
+### 1️ Install Dependencies
+npm install
+npx expo start
+
+##2 Run on Device
+Scan QR with Expo Go (Android/iOS)
+Or press i / a in terminal for simulator
+
+
