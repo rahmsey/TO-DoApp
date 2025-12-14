@@ -117,6 +117,7 @@ todo-app/
 ```bash
 npm install
 npx expo start
+```
 
 # Scan QR code using Expo Go (Android/iOS)
 
