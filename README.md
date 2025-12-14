@@ -120,10 +120,9 @@ npx expo start
 ```
 
 # Scan QR code using Expo Go (Android/iOS)
-
-# OR launch simulators:
-i   # Run on iOS simulator
-a   # Run on Android emulator
+ OR launch simulators:
+   # Run on iOS simulator
+   # Run on Android emulator
 
 
 
