@@ -121,8 +121,8 @@ npx expo start
 
 # Scan QR code using Expo Go (Android/iOS)
  OR launch simulators:
-   # Run on iOS simulator
-   # Run on Android emulator
+    Run on iOS simulator
+   Run on Android emulator
 
 
 
