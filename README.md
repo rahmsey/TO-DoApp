@@ -122,6 +122,19 @@ npx expo start
 
 ####  Using Expo Go (Android / iOS)
 
+
+## 🔗 Live Preview (Expo)
+
+The application is published using **Expo EAS Update**, which enables instant over-the-air updates and easy previewing without requiring a full app store build.
+
+👉 **Preview the app:**  
+https://expo.dev/accounts/nn1bu/projects/todo-app/updates/4f7ec9a4-766d-4b28-8c5f-2750c8ca7e98
+
+**Instructions**
+- Open the link on a physical device and click preview 
+- Launch with **Expo Go**
+- The latest version of the app will load automatically
+
 Scan the QR code that appears after running:
 
 
