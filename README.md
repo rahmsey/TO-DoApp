@@ -119,7 +119,7 @@ npx expo start
 ```
 
 ### 2️ Run on a Device or Simulator
-
+Scan the QR code that appears after running:
 ####  Using Expo Go (Android / iOS)
 
 
@@ -135,7 +135,7 @@ https://expo.dev/accounts/nn1bu/projects/todo-app/updates/4f7ec9a4-766d-4b28-8c5
 - Launch with **Expo Go**
 - The latest version of the app will load automatically
 
-Scan the QR code that appears after running:
+
 
 
 
