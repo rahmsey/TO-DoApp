@@ -5,13 +5,13 @@ export default function RootLayout() {
   return (
     <Stack
       screenOptions={{
-        headerShown: false, // removes global header completely
+        headerShown: false, 
       }}
     >
-      {/* Home index (redirects to /tasks automatically) */}
+     
       <Stack.Screen name="index" />
 
-      {/* Folder layout for /tasks */}
+     
       <Stack.Screen name="tasks" />
     </Stack>
   );

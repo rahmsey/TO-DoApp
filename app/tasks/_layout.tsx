@@ -20,15 +20,15 @@ export default function TaskLayout() {
         headerShadowVisible: false,
       }}
     >
-      {/* Task List screen */}
+      
       <Stack.Screen
         name="index"
         options={{
-          title: "Task List", // this appears at top
+          title: "Task List", 
         }}
       />
 
-      {/* Add Task screen */}
+   
       <Stack.Screen
         name="add"
         options={{
